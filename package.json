@@ -1,5 +1,5 @@
 {
-  "name": "travel-app",
+  "name": "travelsfend-app",
   "version": "1.0.0",
   "description": "A travel app that obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs.",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "build-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build-prod": "webpack --config webpack.prod.js"
   },
-  "author": "Sal Tamay",
+  "author": "None",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
