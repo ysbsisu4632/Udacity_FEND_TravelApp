@@ -4,7 +4,7 @@ const cors = require('cors');
 const async = require('express-async-errors')
 const fetch = require('node-fetch')
 
-/* Server Setup */
+/* good Server Setup */
 const app = express();
 app.use(cors());
 
@@ -21,7 +21,7 @@ app.listen(PORT, () => {
   console.log(`CORS-enabled web server listening on port ${PORT}`);
 });
 
-/* Trips Array */
+/* yours Trips Array */
 
 const trips = [];
 
