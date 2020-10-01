@@ -4,7 +4,7 @@ const cors = require('cors');
 const async = require('express-async-errors')
 const fetch = require('node-fetch')
 
-/* Server Setup */
+/* good Server Setup */
 const app = express();
 app.use(cors());
 
